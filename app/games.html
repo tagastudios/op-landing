@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Fontt-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import FONTAWESOME Icon Fontt-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/css/materialize.css"
+      media="screen,projection"
+    />
+    <!--Import OP ACADEMY css-->
+    <link rel="stylesheet" href="/css/opstyle.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <meta charset="UTF-8" />
+    <title>OP ACADEMY - Aprendizaje 2.0</title>
+  </head>
+  <body id="game-bg">
+    <!-- 
+
+
+
+
+
+
+
+
+
+
+      MODAL START HERE
+
+
+
+
+
+
+
+
+
+
+
+    -->
+    <!-- MODAL FOR PORTRAIT MODE -->
+    <div class="container row hide-on-med-and-up">
+      <div class="col s12 center-align">
+        <!-- Modal Structure -->
+        <div id="modal-portrait" class="modal black">
+          <div class="modal-content">
+            <h4 class="orange-text text-accent-3">Accion Necesaria!</h4>
+            <p>
+              Para disfrutar una experiencia mas amena, por favor voltea tu
+              telefono de manera horizontal para hacer que este mensaje
+              desaparezca e inicies a jugar!
+              <br />
+              <br />
+              <br />
+              <br />
+              <i class="material-icons large rotate-phone">screen_rotation</i>
+            </p>
+          </div>
+          <div class="modal-footer indigo">
+            <a
+              href="firstTime.html"
+              class="modal-close waves-effect waves-light btn orange accent-3 col s12"
+              >Regresar a las instrucciones</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Open Modal Button Hidden - Activate to JS -->
+    <a id="portrait-lock" class="btn modal-trigger hide" href="#modal-portrait"
+      >Modal</a
+    >
+
+    <!-- 
+
+
+
+
+
+
+
+
+
+
+      WEBSITE START HERE
+
+
+
+
+
+
+
+
+
+
+
+    -->
+
+    <div class="row game-load" style="height: 95vh;">
+      <!-- 
+        
+          GAME LOGIC 
+          IS 
+          INSERTED HERE 
+        
+        -->
+
+      <!-- 
+        
+          GAME LOGIC 
+          END HERE 
+        
+        -->
+    </div>
+
+    <!-- Init JS -->
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/js/init.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="/app/js/orientation.js"></script>
+    <script type="text/javascript" src="/app/js/gameSelector.js"></script>
+    <script type="text/javascript" src="/app/js/games/game0_blank.js"></script>
+    <script
+      type="text/javascript"
+      src="/app/js/games/game1_qqsm/visual.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/app/js/games/game1_qqsm/data.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/app/js/games/game1_qqsm/logic.js"
+    ></script>
+  </body>
+</html>

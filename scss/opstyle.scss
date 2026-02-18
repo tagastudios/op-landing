@@ -1,0 +1,583 @@
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: rgb(255, 183, 77);
+}
+
+// App Style
+@import "app scss/app";
+@import "app scss/game1_qqsm";
+@import "app scss/rocketman";
+
+/*
+
+  AD BLOCK
+
+*/
+
+.block-ad-bg {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba($color: #000000, $alpha: 0.6);
+  position: fixed;
+  z-index: 10;
+}
+
+.block-ad-text {
+  height: auto;
+  width: 60vw;
+  top: 25vh;
+  left: 20vw;
+  background: rgb(247, 247, 247);
+  position: fixed;
+  padding: 10px 0;
+  border: var(--secondary-color) solid 5px;
+  border-radius: 30px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed:ital,wght@1,700&display=swap");
+
+.sub-text {
+  font-family: "Permanent Marker", cursive;
+  color: var(--secondary-color);
+}
+
+.main-text {
+  font-weight: 800;
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--primary-color);
+  margin-top: -10px;
+}
+
+.logoAD {
+  height: auto;
+  width: 200px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+
+/*
+
+  GENERAL
+
+*/
+.primary-text {
+  color: var(--primary-color);
+}
+
+.secondary-text {
+  color: var(--secondary-color);
+}
+
+.primary-bg {
+  background: var(--primary-color);
+}
+
+.secondary-bg {
+  background: var(--secondary-color);
+}
+
+/*
+
+  NAV BAR
+
+*/
+
+nav img {
+  height: 55px;
+}
+
+.btn-login {
+  font-weight: 700;
+}
+
+/*
+
+  SLIDER
+
+*/
+
+.slider-text {
+  font-weight: 800;
+  color: white;
+  text-shadow: black;
+}
+
+.slider-subtext {
+  font-weight: 500;
+  text-shadow: black;
+}
+
+.box-slider {
+  background: rgba(#3f51b5, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 20px;
+  border: var(--primary-color) solid 2px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.slides {
+  height: 500px !important;
+}
+
+.slider {
+  height: 540px !important;
+}
+
+/*
+
+  CARDS
+
+*/
+
+.divider {
+  margin: 20px;
+}
+
+.title-card {
+  color: white;
+}
+
+/*
+
+  MIDDLE WEBSITE DIVISION
+
+*/
+
+.div1-fixer {
+  width: 50%;
+  height: 80px;
+  background: var(--secondary-color);
+  margin-bottom: -96px;
+}
+
+.contenido1 {
+  height: 170px;
+}
+
+.dividerLeft1 {
+  transform: skewY(8deg);
+  margin-bottom: -120px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(2550, 0, 0);
+  position: relative;
+  z-index: -1000;
+}
+
+.dividerRight1 {
+  transform: skewY(-8deg);
+  margin-bottom: -100px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(2550, 0, 0);
+  position: relative;
+  z-index: -1000;
+}
+
+.contenido2 {
+  height: 150px;
+}
+
+.dividerLeft2 {
+  transform: skewY(8deg);
+  margin-top: -120px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(2550, 0, 0);
+  position: relative;
+  z-index: -1000;
+}
+
+.dividerRight2 {
+  transform: skewY(-8deg);
+  margin-top: -120px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(2550, 0, 0);
+  position: relative;
+  z-index: -1000;
+}
+
+.titulo {
+  margin-bottom: -50px;
+}
+
+/*
+
+  CALL TO ACTION
+
+*/
+
+.cta {
+  text-align: center;
+  color: white;
+  padding-bottom: 60px;
+  margin-top: -70px;
+}
+
+.icon-perfect {
+  margin-top: 10px;
+}
+
+.small-letters {
+  font-size: 1.1rem;
+}
+
+/*
+
+  CURSOS DISPONIBLES
+
+*/
+
+.underline {
+  background: var(--primary-color);
+  width: 70%;
+  height: 10px;
+  margin: auto;
+}
+
+.cursos-border {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px var(--primary-color);
+  border: var(--primary-color) solid 2px;
+}
+
+.cursos-border:hover {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px var(--secondary-color);
+  border: var(--secondary-color) solid 2px;
+}
+
+.card-image img {
+  border-top-left-radius: 18px !important;
+  border-top-right-radius: 18px !important;
+}
+
+/*
+
+  INSTRUCTIONS SCREEN BEFORE GAMES
+
+*/
+
+.btn-firstTimer {
+  font-size: 0.85rem;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  MEDIA QUERYS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+@media only screen and (max-height: 450px) and (max-width: 900px) {
+  // Really small devices LANDSCAPE
+  .block-ad-text {
+    padding: 0;
+    top: 30vh;
+    left: 7vw;
+    height: 50vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .sub-text {
+    font-size: 2vw;
+    margin: 0;
+    margin-right: 2vw;
+    margin-left: -2vw;
+  }
+
+  .main-text {
+    font-size: 4vw;
+    margin: 0;
+    margin-right: 2vw;
+  }
+
+  .logoAD {
+    width: 25vw;
+    height: auto;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .rocketman {
+    position: absolute;
+    margin-left: 20vw;
+    animation: rocketmansmall 5s infinite;
+    bottom: 10px;
+  }
+}
+
+// Small devices
+@media only screen and (max-width: 600px) {
+  /*
+
+    CARDS
+
+  */
+  .container-mobile {
+    padding: 0 6%;
+  }
+
+  /*
+
+    AD BLOCK
+
+  */
+  .sub-text {
+    font-family: "Permanent Marker", cursive;
+    color: var(--secondary-color);
+    font-size: 2rem !important;
+    margin-top: -10px;
+  }
+
+  .main-text {
+    font-weight: 800;
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--primary-color);
+    margin-top: 20px;
+    font-size: 2.5rem !important;
+  }
+}
+
+// Small and few Medium devices
+@media only screen and (max-width: 900px) {
+  /*
+
+    Youtube Section Margin Bottom
+
+  */
+  .container-mobile {
+    padding: 0 6%;
+  }
+
+  .youtube-vid {
+    margin-bottom: 40px;
+  }
+
+  /*
+
+  CURSOS DISPONIBLES
+
+*/
+
+  .underline {
+    background: var(--primary-color);
+    width: 80%;
+    height: 10px;
+    margin: auto;
+  }
+}
+
+// Really small devices
+@media only screen and (max-width: 500px) {
+  .sub-text {
+    font-size: 1.5rem !important;
+  }
+
+  .main-text {
+    font-weight: 800;
+    font-size: 1.8rem !important;
+  }
+
+  .logoAD {
+    height: auto;
+    width: 150px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+// Medium Large devices
+@media only screen and (min-width: 600px) {
+  /*
+
+    DIVISOR #1
+
+  */
+
+  .div1-fixer {
+    width: 50%;
+    height: 148px;
+    background: var(--secondary-color);
+    margin-bottom: -181px;
+  }
+}
+
+// Large devices
+@media only screen and (min-width: 993px) {
+  /*
+
+    CARDS
+
+  */
+  .container-mobile {
+    padding: 0 6%;
+  }
+
+  .card-panel {
+    height: 500px;
+  }
+
+  .underline {
+    background: var(--primary-color);
+    width: 20%;
+    height: 10px;
+    margin: auto;
+  }
+
+  /*
+
+    DIVISOR #1
+
+  */
+
+  .div1-fixer {
+    width: 50%;
+    height: 115px;
+    background: var(--secondary-color);
+    margin-bottom: -150px;
+  }
+
+  /*
+
+    YOUTUBE SECTION
+
+  */
+
+  .youtube-sect-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .youtube-vid {
+    margin-top: 100px;
+  }
+}
+
+// Large and 1/2 Screen devices
+@media only screen and (min-width: 1200px) {
+  /*
+
+    YOUTUBE SECTION
+
+  */
+
+  .youtube-sect-container {
+    margin-top: 50px;
+  }
+
+  .youtube-vid {
+    margin-top: 100px;
+  }
+}
+
+// Large and 1/2 Screen devices
+@media only screen and (min-width: 1400px) {
+  /*
+
+    YOUTUBE SECTION
+
+  */
+
+  .youtube-sect-container {
+    margin-top: 50px;
+  }
+
+  .youtube-vid {
+    margin-top: 30px;
+  }
+}
+
+// Extra Large devices
+@media only screen and (min-width: 1800px) {
+  /*
+
+    DIVISOR #1
+
+  */
+
+  .div1-fixer {
+    width: 50%;
+    height: 80px;
+    background: var(--secondary-color);
+    margin-bottom: -145px;
+  }
+
+  /*
+
+  SLIDER
+
+  */
+  .slides {
+    height: 70vh !important;
+  }
+
+  .slider {
+    height: 80vh !important;
+  }
+
+  /*
+
+    YOUTUBE SECTION
+
+  */
+
+  .youtube-vid {
+    margin-bottom: 20px;
+  }
+
+  /*
+
+  CURSOS DISPONIBLES
+
+*/
+
+  .underline {
+    background: var(--primary-color);
+    width: 20%;
+    height: 10px;
+    margin: auto;
+  }
+}

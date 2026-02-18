@@ -1,0 +1,58 @@
+.rocketman {
+  width: 80px;
+  float: left;
+  position: relative;
+  animation: rocketman 5s infinite;
+}
+
+@keyframes rocketman {
+  0% {
+    left: 0;
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+
+  5% {
+    left: 0%;
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  95% {
+    left: 100%;
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+
+  100% {
+    left: 100%;
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes rocketmansmall {
+  0% {
+    left: 0;
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+
+  5% {
+    left: 0%;
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  95% {
+    left: 73%;
+    transform: translateX(-100%);
+    opacity: 1;
+  }
+
+  100% {
+    left: 100%;
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
