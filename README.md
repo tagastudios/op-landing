@@ -14,3 +14,7 @@ Open `index.html` in a browser. No build step or server required.
 
 - **Materialize CSS** — [MIT License](https://github.com/Dogfalo/materialize/blob/master/LICENSE)
 - **Illustrations** — [Freepik](https://www.freepik.com)
+
+## License
+
+Designed by [Taga Studios](https://tagastudios.com).
